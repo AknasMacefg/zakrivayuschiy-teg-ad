@@ -383,7 +383,7 @@
       <div class="button-form">
         <button
           type="button"
-          onclick="window['dialog-id'].showModal()"
+          onclick="window['dialog-id'].showModal();"
           aria-controls="dialog-id"
           class="bottom-button button-animation"
         >
@@ -406,9 +406,8 @@
         <form class="button-form" method="dialog" >
           <button
             class="ok-button button-animation"
-            type="submit"
-            onclick="window['dialog-id'].close()"
-            formnovalidate
+            type="button"
+            onclick="window['dialog-id'].close();"
           >
             <span class="button__text">ОК</span>
           </button>

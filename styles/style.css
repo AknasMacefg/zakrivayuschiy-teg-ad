@@ -11,9 +11,9 @@
 */
 
 .page {
+  inline-size: clamp(320px, 100vw, 700px);
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  inline-size: clamp(320px, 100vw, 700px);
   font-family: var(--main-font);
   font-variation-settings: "wght" var(--main-text-font-weight);
   background: repeating-linear-gradient(transparent, #d3d3d3 2px),
